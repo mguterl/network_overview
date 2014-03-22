@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.40 scan initiated Sat Feb 22 16:49:11 2014 as: nmap -oX - -sP 192.168.1.1-254 -->
+<nmaprun scanner="nmap" args="nmap -oX - -sP 192.168.1.1-254" start="1393105751" startstr="Sat Feb 22 16:49:11 2014" version="6.40" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<address addr="00:14:BF:10:17:A2" addrtype="mac" vendor="Cisco-Linksys"/>
+<hostnames>
+</hostnames>
+<times srtt="5821" rttvar="5821" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.2" addrtype="ipv4"/>
+<address addr="80:1F:02:AA:31:BD" addrtype="mac" vendor="Edimax Technology Co."/>
+<hostnames>
+</hostnames>
+<times srtt="34702" rttvar="37392" to="184270"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.1.109" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<runstats><finished time="1393105754" timestr="Sat Feb 22 16:49:14 2014" elapsed="2.82" summary="Nmap done at Sat Feb 22 16:49:14 2014; 254 IP addresses (7 hosts up) scanned in 2.82 seconds" exit="success"/><hosts up="7" down="247" total="254"/>
+</runstats>
+</nmaprun>
